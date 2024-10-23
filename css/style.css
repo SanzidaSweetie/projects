@@ -34,7 +34,7 @@
  .menu{}
  .menu ul li a{
  	color: var(--black) !important;
- 	padding: 0 15px !important;
+ 	padding: 0 15px ;
  }
  .menu ul li a:hover{
  	color: var(--red) !important;
@@ -45,6 +45,7 @@
  	color: white;
     line-height: 18.75px;
     border: none;
+    border-radius: 33px;
  }
  .btn_sin{
  	margin-left: 10px;
@@ -60,6 +61,39 @@
  }
  
  /*header end*/
+ /*banner start*/
+ .banner{
+ 	background-color: #F0FFF0;
+ 	padding-bottom: 65px;
+
+ }
+
+ .b_text{}
+ .b_p1{
+ 	color: var(--red);
+ }
+ .b_h1{
+ 	margin: 10px 110px 20px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+ }
+ .b_h1 span{
+ 	color: var(--green);
+ }
+ .b_p2{
+ 	line-height: 36px;
+ }
+ .btn_get{
+ 	margin-top: 15px;
+ 	padding: 12px 36px;
+ }
+
+ .b_img{
+ 	flex-shrink: 0;
+ 	width: 100%;
+ }
+ /*banner end*/
 
 
 

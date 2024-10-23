@@ -1,5 +1,15 @@
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+/*header start*/
+ header {
+ 	padding: 5px 0;
+}
+.logo {
+	width: 180px;
+}
+.menu ul li a {
+	padding: 0 10px 10px !important;
+}
 
 }
 
@@ -37,6 +47,10 @@
 
 /* Extra Extra large devices (large desktops, 1400px and up)*/
 @media (min-width: 1400px) {
+/*banner start*/
+  .b_h1 {
+   	margin: 10px 110px 20px 0;
+   }
 
 }
 
